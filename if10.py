@@ -13,4 +13,18 @@ def main(temp):
     Returns:
         string: the message to print
     """
-    return
+    def main(temp):
+     if temp<0:
+        return "Muzlab qoldi"  
+    if 1<=temp<=10:
+        return "Juda sovuq"  
+    if 11<=temp<=20:
+        return "Sovuq" 
+    if 21<=temp<=30:
+        return "Normal"  
+    if 31<=temp<=40:
+        return "Issiq"
+    if temp>40:
+        return "Juda issiq"
+print(main(21))
+print(main(-4))

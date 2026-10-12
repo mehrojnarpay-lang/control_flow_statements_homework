@@ -1,12 +1,7 @@
 def main(a):
-    """
-    The two-digit integer is given.
-    Replace the digits of the number.
-    True if the resulting number is less than or equal to the old number, otherwise return False.
-    
-    Args:
-        a: integer
-    Returns:
-        boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
-    """
-    return
+
+    x=abs(a)
+    teskari=(x % 10)*10+x//10
+    return teskari<=x
+print(main(57)) 
+print(main(21)) 
